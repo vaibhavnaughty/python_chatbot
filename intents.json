@@ -15,7 +15,7 @@
          "context": [""]
         },
         {"tag": "noanswer",
-         "patterns": [],
+         "patterns": ["sddgfg","fdsfdvvds","fsdfgrg"],
          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
          "context": [""]
         },
@@ -100,7 +100,21 @@
           "context":[""]
 
 
+        },
+        {"tag":"lunch",
+          "patterns":["what have you eaten in lucnch","fav dish"],
+          "responses":["If you allow me I can eat your BRAIN HAHAHAHAHAHAHAHA just joking :)"],
+          "context":[""],
+          "wrap": true
+        },
+        {"tag":"exit",
+          "patterns":["exit","quit"],
+          "responses":["OK, Kindly click on the cross arrow up there"],
+          "context":[""],
+          "wrap":true
+
         }
+
 
    ]
 }
