@@ -89,6 +89,7 @@ base = Tk()
 base.title("Bot")
 base.geometry("400x500")
 base.resizable(width=FALSE, height=FALSE)
+base.wm_iconbitmap('electronics.ico')
 
 #Create Chat window
 ChatLog = Text(base, bd=0, bg="#F7F3F2", height="8", width="50", font="Arial",)
